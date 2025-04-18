@@ -1,0 +1,12 @@
+www.example.com
+
+
+# This is a comment
+
+www.youtube.com # YouTube should be blocked even with this comment
+youtube.com
+youtu.be
+crates.io
+
+www.google.com
+www.apple.com
