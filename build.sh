@@ -4,8 +4,6 @@ if [[ $CC = "" ]]; then
     CC=clang
 fi
 
-IS_RELEASE=false
-
 if [[ $OPT_LEVEL = "" ]]; then
     if [[ $1 = "release" ]]; then
         OPT_LEVEL=O3
