@@ -3,4 +3,4 @@
 CWD="$(dirname $0)"
 FF_BINARY="$CWD/firefox"
 
-exec env DYLD_INSERT_LIBRARIES="$CWD/shimmy.dylib" "$FF_BINARY" "$@"
+exec env DYLD_INSERT_LIBRARIES="$HOME/.shimmy/shimmy.dylib" "$FF_BINARY" "$@"
